@@ -1,0 +1,29 @@
+services:
+
+  # 🧱 Base de datos única para todos los microservicios
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    environment:
+      SA_PASSWORD: "ALm4*.#0978"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sql_data:/var/opt/mssql
+
+  # 🧩 Microservicio Clientes
+  clientes-api:
+    build:
+      context: .
+      dockerfile: Clientes.API/Dockerfile
+    ports:
+      - "5000:80"
+    depends_on:
+      - sqlserver
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Server=sqlserver,1433;Database=ClientesDb;User=sa;Password=ALm4*.#0978; Encrypt=False;
+
+volumes:
+  sql_data:
