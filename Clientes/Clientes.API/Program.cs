@@ -3,6 +3,7 @@ using Clientes.Domain.Interfaces;
 using Clientes.Infrastructure.Data;
 using Clientes.Infrastructure.Repositories;
 using Clientes.Infrastructure.Services;
+using Clientes.Infrastructure.Utils;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,9 +19,11 @@ builder.WebHost.UseUrls("http://0.0.0.0:80");
 builder.Services.AddDbContext<ClientesDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.Configure<EncryptionOptions>(builder.Configuration.GetSection("Encryption"));
+
 // 🧱 Inyecciones
 builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
-builder.Services.AddScoped<ICryptoService, CryptoService>();
+builder.Services.AddSingleton<ICryptoService, CryptoService>();
 builder.Services.AddScoped<IClienteService, ClienteService>();
 
 builder.Services.AddControllers();

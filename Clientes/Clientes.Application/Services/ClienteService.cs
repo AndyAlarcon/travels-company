@@ -27,13 +27,14 @@ public class ClienteService : IClienteService
         return cliente is null ? null : MapToDto(cliente);
     }
 
-    public async Task CreateAsync(ClienteDto dto)
+    public async Task <ClienteDto> CreateAsync(ClienteDto dto)
     {
         var cliente = MapToEntity(dto);
         cliente.FechaRegistro = DateTime.UtcNow;
         cliente.Activo = true;
 
         await _repository.AddAsync(cliente);
+        return MapToDto(cliente);
     }
 
     public async Task UpdateAsync(ClienteDto dto)

@@ -34,8 +34,8 @@ public class ClientesController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> Create([FromBody] ClienteDto dto)
     {
-        await _clienteService.CreateAsync(dto);
-        return CreatedAtAction(nameof(Get), new { id = dto.Id }, dto);
+        var result = await _clienteService.CreateAsync(dto);
+        return CreatedAtAction(nameof(Get), new { id = dto.Id }, result);
     }
 
     [HttpPut("{id}")]

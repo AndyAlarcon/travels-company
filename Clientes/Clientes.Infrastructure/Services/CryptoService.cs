@@ -1,6 +1,8 @@
 using System.Security.Cryptography;
 using System.Text;
 using Clientes.Domain.Interfaces;
+using Clientes.Infrastructure.Utils;
+using Microsoft.Extensions.Options;
 
 namespace Clientes.Infrastructure.Services;
 
@@ -9,11 +11,12 @@ public class CryptoService : ICryptoService
     private readonly byte[] _key;
     private readonly byte[] _iv;
 
-    public CryptoService()
+    public CryptoService(IOptions<EncryptionOptions> options)
     {
-        // ⚠️ En real, esto debe ir en configuración segura, no hardcoded
-        _key = Encoding.UTF8.GetBytes("SuperClaveAES1234"); // 16 bytes
-        _iv = Encoding.UTF8.GetBytes("VectorInicial1234");  // 16 bytes
+        var settings = options.Value;
+
+        _key = Convert.FromBase64String(settings.Key);
+        _iv = Convert.FromBase64String(settings.IV);
     }
 
     public string Encrypt(string plainText)

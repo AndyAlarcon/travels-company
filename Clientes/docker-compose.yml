@@ -23,7 +23,7 @@ services:
       - sqlserver
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ConnectionStrings__DefaultConnection=Server=sqlserver,1433;Database=ClientesDb;User=sa;Password=ALm4*.#0978;
+      - ConnectionStrings__DefaultConnection=Server=sqlserver,1433;Database=ClientesDb;User=sa;Password=ALm4*.#0978; Encrypt=False;
 
 volumes:
   sql_data:
