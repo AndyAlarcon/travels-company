@@ -1,0 +1,12 @@
+C:\Desarrollo\travels-company\Paquetes\Paquetes.Domain\bin\Debug\net9.0\Paquetes.Domain.deps.json
+C:\Desarrollo\travels-company\Paquetes\Paquetes.Domain\bin\Debug\net9.0\Paquetes.Domain.dll
+C:\Desarrollo\travels-company\Paquetes\Paquetes.Domain\bin\Debug\net9.0\Paquetes.Domain.pdb
+C:\Desarrollo\travels-company\Paquetes\Paquetes.Domain\obj\Debug\net9.0\Paquetes.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desarrollo\travels-company\Paquetes\Paquetes.Domain\obj\Debug\net9.0\Paquetes.Domain.AssemblyInfoInputs.cache
+C:\Desarrollo\travels-company\Paquetes\Paquetes.Domain\obj\Debug\net9.0\Paquetes.Domain.AssemblyInfo.cs
+C:\Desarrollo\travels-company\Paquetes\Paquetes.Domain\obj\Debug\net9.0\Paquetes.Domain.csproj.CoreCompileInputs.cache
+C:\Desarrollo\travels-company\Paquetes\Paquetes.Domain\obj\Debug\net9.0\Paquetes.Domain.sourcelink.json
+C:\Desarrollo\travels-company\Paquetes\Paquetes.Domain\obj\Debug\net9.0\Paquetes.Domain.dll
+C:\Desarrollo\travels-company\Paquetes\Paquetes.Domain\obj\Debug\net9.0\refint\Paquetes.Domain.dll
+C:\Desarrollo\travels-company\Paquetes\Paquetes.Domain\obj\Debug\net9.0\Paquetes.Domain.pdb
+C:\Desarrollo\travels-company\Paquetes\Paquetes.Domain\obj\Debug\net9.0\ref\Paquetes.Domain.dll

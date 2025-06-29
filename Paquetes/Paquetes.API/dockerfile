@@ -1,0 +1,22 @@
+# Build stage
+FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
+WORKDIR /src
+
+COPY Paquetes/*.sln .
+COPY Paquetes/Paquetes.API/*.csproj ./Paquetes.API/
+COPY Paquetes/Paquetes.Application/*.csproj ./Paquetes.Application/
+COPY Paquetes/Paquetes.Domain/*.csproj ./Paquetes.Domain/
+COPY Paquetes/Paquetes.Infrastructure/*.csproj ./Paquetes.Infrastructure/
+
+RUN dotnet restore
+
+COPY . .
+RUN dotnet publish Paquetes/Paquetes.API -c Release -o /app/publish
+
+# Runtime stage
+FROM mcr.microsoft.com/dotnet/aspnet:9.0
+WORKDIR /app
+COPY --from=build /app/publish .
+
+EXPOSE 80
+ENTRYPOINT ["dotnet", "Paquetes.API.dll"]
