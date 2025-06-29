@@ -8,11 +8,14 @@ public class ImagenPaqueteService : IImagenPaqueteService
 {
     private readonly IImagenesPaquetesRepository _repository;
     private readonly string _rutaBase;
+    private readonly IPaqueteProxyService _paqueteProxy;
 
-    public ImagenPaqueteService(IImagenesPaquetesRepository repository)
+    public ImagenPaqueteService(IImagenesPaquetesRepository repository, IPaqueteProxyService paqueteProxy)
     {
         _repository = repository;
         _rutaBase = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "imagenes");
+
+        _paqueteProxy = paqueteProxy;
 
         if (!Directory.Exists(_rutaBase))
         {
@@ -21,6 +24,9 @@ public class ImagenPaqueteService : IImagenPaqueteService
     }
     public async Task<int> GuardarImagenAsync(Stream archivo, string nombreOriginal, int idPaquete, string descripcion)
     {
+        if (!await _paqueteProxy.PaqueteExisteAsync(idPaquete))
+            return 0;
+        
         var extension = Path.GetExtension(nombreOriginal);
         var nombreArchivoUnico = $"{Guid.NewGuid()}{extension}";
         var rutaCompleta = Path.Combine(_rutaBase, nombreArchivoUnico);

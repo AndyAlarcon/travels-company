@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ImagenesPaquetes.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd6c00d1779cd0c8244abb1f5655461ee4efc472")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d2fa1f52a2f3e8422f6e44304986df1bc6cdb44")]
 [assembly: System.Reflection.AssemblyProductAttribute("ImagenesPaquetes.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ImagenesPaquetes.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

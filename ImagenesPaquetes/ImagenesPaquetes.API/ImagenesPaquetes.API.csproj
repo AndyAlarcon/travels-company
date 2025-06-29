@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ImagenesPaquetes.Application\ImagenesPaquetes.Application.csproj" />
+    <ProjectReference Include="..\ImagenesPaquetes.Infrastructure\ImagenesPaquetes.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

@@ -35,6 +35,9 @@
             "projectReferences": {
               "C:\\Desarrollo\\travels-company\\ImagenesPaquetes\\ImagenesPaquetes.Application\\ImagenesPaquetes.Application.csproj": {
                 "projectPath": "C:\\Desarrollo\\travels-company\\ImagenesPaquetes\\ImagenesPaquetes.Application\\ImagenesPaquetes.Application.csproj"
+              },
+              "C:\\Desarrollo\\travels-company\\ImagenesPaquetes\\ImagenesPaquetes.Infrastructure\\ImagenesPaquetes.Infrastructure.csproj": {
+                "projectPath": "C:\\Desarrollo\\travels-company\\ImagenesPaquetes\\ImagenesPaquetes.Infrastructure\\ImagenesPaquetes.Infrastructure.csproj"
               }
             }
           }
@@ -124,9 +127,6 @@
             "projectReferences": {
               "C:\\Desarrollo\\travels-company\\ImagenesPaquetes\\ImagenesPaquetes.Domain\\ImagenesPaquetes.Domain.csproj": {
                 "projectPath": "C:\\Desarrollo\\travels-company\\ImagenesPaquetes\\ImagenesPaquetes.Domain\\ImagenesPaquetes.Domain.csproj"
-              },
-              "C:\\Desarrollo\\travels-company\\ImagenesPaquetes\\ImagenesPaquetes.Infrastructure\\ImagenesPaquetes.Infrastructure.csproj": {
-                "projectPath": "C:\\Desarrollo\\travels-company\\ImagenesPaquetes\\ImagenesPaquetes.Infrastructure\\ImagenesPaquetes.Infrastructure.csproj"
               }
             }
           }
@@ -261,6 +261,9 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "C:\\Desarrollo\\travels-company\\ImagenesPaquetes\\ImagenesPaquetes.Application\\ImagenesPaquetes.Application.csproj": {
+                "projectPath": "C:\\Desarrollo\\travels-company\\ImagenesPaquetes\\ImagenesPaquetes.Application\\ImagenesPaquetes.Application.csproj"
+              },
               "C:\\Desarrollo\\travels-company\\ImagenesPaquetes\\ImagenesPaquetes.Domain\\ImagenesPaquetes.Domain.csproj": {
                 "projectPath": "C:\\Desarrollo\\travels-company\\ImagenesPaquetes\\ImagenesPaquetes.Domain\\ImagenesPaquetes.Domain.csproj"
               }

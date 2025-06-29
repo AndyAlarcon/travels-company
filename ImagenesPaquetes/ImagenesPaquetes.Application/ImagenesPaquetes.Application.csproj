@@ -2,7 +2,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ImagenesPaquetes.Domain\ImagenesPaquetes.Domain.csproj" />
-    <ProjectReference Include="..\ImagenesPaquetes.Infrastructure\ImagenesPaquetes.Infrastructure.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

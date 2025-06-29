@@ -27,7 +27,14 @@ public class ImagenesPaquetesController : ControllerBase
         }
         var stream = request.Archivo.OpenReadStream();
         var id = await _service.GuardarImagenAsync(stream, request.Archivo.FileName, paqueteId, request.Descripcion);
-        return CreatedAtAction(nameof(ObtenerPorPaquete), new { paqueteId }, new { id });
+        if (id == 0)
+        {
+            return BadRequest(new{ mensaje = "El paquete no existe"});
+        }
+        else
+        {
+            return CreatedAtAction(nameof(ObtenerPorPaquete), new { paqueteId }, new { id });    
+        }
     }
 
     [HttpGet("{paqueteId}")]

@@ -1619,6 +1619,19 @@
           }
         }
       },
+      "ImagenesPaquetes.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "ImagenesPaquetes.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ImagenesPaquetes.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ImagenesPaquetes.Application.dll": {}
+        }
+      },
       "ImagenesPaquetes.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -4760,6 +4773,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "ImagenesPaquetes.Application/1.0.0": {
+      "type": "project",
+      "path": "../ImagenesPaquetes.Application/ImagenesPaquetes.Application.csproj",
+      "msbuildProject": "../ImagenesPaquetes.Application/ImagenesPaquetes.Application.csproj"
+    },
     "ImagenesPaquetes.Domain/1.0.0": {
       "type": "project",
       "path": "../ImagenesPaquetes.Domain/ImagenesPaquetes.Domain.csproj",
@@ -4768,6 +4786,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "ImagenesPaquetes.Application >= 1.0.0",
       "ImagenesPaquetes.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 9.0.6",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.6",
@@ -4809,6 +4828,9 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
+            "C:\\Desarrollo\\travels-company\\ImagenesPaquetes\\ImagenesPaquetes.Application\\ImagenesPaquetes.Application.csproj": {
+              "projectPath": "C:\\Desarrollo\\travels-company\\ImagenesPaquetes\\ImagenesPaquetes.Application\\ImagenesPaquetes.Application.csproj"
+            },
             "C:\\Desarrollo\\travels-company\\ImagenesPaquetes\\ImagenesPaquetes.Domain\\ImagenesPaquetes.Domain.csproj": {
               "projectPath": "C:\\Desarrollo\\travels-company\\ImagenesPaquetes\\ImagenesPaquetes.Domain\\ImagenesPaquetes.Domain.csproj"
             }

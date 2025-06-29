@@ -1,6 +1,8 @@
 using ImagenesPaquetes.Application.Services;
+using ImagenesPaquetes.Application.Utils;
 using ImagenesPaquetes.Domain.Interfaces;
 using ImagenesPaquetes.Infrastructure.Data;
+using ImagenesPaquetes.Infrastructure.Proxies;
 using ImagenesPaquetes.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,6 +14,11 @@ builder.Configuration
     .AddEnvironmentVariables();
 
 builder.WebHost.UseUrls("http://0.0.0.0:80");
+
+builder.Services.Configure<MicroserviceUrls>(
+    builder.Configuration.GetSection("Microservices"));
+
+builder.Services.AddHttpClient<IPaqueteProxyService, PaqueteProxyService>();
 
 // 🔗 Connection String
 builder.Services.AddDbContext<ImagenesPaquetesDbContext>(options =>
