@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Paquetes.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a03e113483a9db5bbf543424d50e0e85e5bebc00")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd6c00d1779cd0c8244abb1f5655461ee4efc472")]
 [assembly: System.Reflection.AssemblyProductAttribute("Paquetes.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Paquetes.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

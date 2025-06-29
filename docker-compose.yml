@@ -35,6 +35,16 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - ConnectionStrings__DefaultConnection=Server=sqlserver,1433;Database=PaquetesDb;User=sa;Password=ALm4*.#0978; Encrypt=False;
-
+  imagenes-paquetes-api:
+    build:
+      context: .
+      dockerfile: ImagenesPaquetes/ImagenesPaquetes.API/Dockerfile
+    ports:
+      - "5002:80"
+    depends_on:
+      - sqlserver
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Server=sqlserver,1433;Database=PaquetesImagenesDb;User=sa;Password=ALm4*.#0978; Encrypt=False;
 volumes:
   sql_data:
