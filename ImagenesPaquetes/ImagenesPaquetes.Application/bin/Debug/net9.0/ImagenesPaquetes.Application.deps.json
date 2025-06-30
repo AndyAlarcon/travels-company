@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "ImagenesPaquetes.Application/1.0.0": {
+        "dependencies": {
+          "ImagenesPaquetes.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ImagenesPaquetes.Application.dll": {}
+        }
+      },
+      "ImagenesPaquetes.Domain/1.0.0": {
+        "runtime": {
+          "ImagenesPaquetes.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ImagenesPaquetes.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ImagenesPaquetes.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

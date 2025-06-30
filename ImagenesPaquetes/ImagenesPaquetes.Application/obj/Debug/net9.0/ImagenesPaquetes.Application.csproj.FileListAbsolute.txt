@@ -1,0 +1,16 @@
+C:\Desarrollo\travels-company\ImagenesPaquetes\ImagenesPaquetes.Application\bin\Debug\net9.0\ImagenesPaquetes.Application.deps.json
+C:\Desarrollo\travels-company\ImagenesPaquetes\ImagenesPaquetes.Application\bin\Debug\net9.0\ImagenesPaquetes.Application.dll
+C:\Desarrollo\travels-company\ImagenesPaquetes\ImagenesPaquetes.Application\bin\Debug\net9.0\ImagenesPaquetes.Application.pdb
+C:\Desarrollo\travels-company\ImagenesPaquetes\ImagenesPaquetes.Application\bin\Debug\net9.0\ImagenesPaquetes.Domain.dll
+C:\Desarrollo\travels-company\ImagenesPaquetes\ImagenesPaquetes.Application\bin\Debug\net9.0\ImagenesPaquetes.Domain.pdb
+C:\Desarrollo\travels-company\ImagenesPaquetes\ImagenesPaquetes.Application\obj\Debug\net9.0\ImagenesPaquetes.Application.csproj.AssemblyReference.cache
+C:\Desarrollo\travels-company\ImagenesPaquetes\ImagenesPaquetes.Application\obj\Debug\net9.0\ImagenesPaquetes.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desarrollo\travels-company\ImagenesPaquetes\ImagenesPaquetes.Application\obj\Debug\net9.0\ImagenesPaquetes.Application.AssemblyInfoInputs.cache
+C:\Desarrollo\travels-company\ImagenesPaquetes\ImagenesPaquetes.Application\obj\Debug\net9.0\ImagenesPaquetes.Application.AssemblyInfo.cs
+C:\Desarrollo\travels-company\ImagenesPaquetes\ImagenesPaquetes.Application\obj\Debug\net9.0\ImagenesPaquetes.Application.csproj.CoreCompileInputs.cache
+C:\Desarrollo\travels-company\ImagenesPaquetes\ImagenesPaquetes.Application\obj\Debug\net9.0\ImagenesPaquetes.Application.sourcelink.json
+C:\Desarrollo\travels-company\ImagenesPaquetes\ImagenesPaquetes.Application\obj\Debug\net9.0\Imagenes.490489D9.Up2Date
+C:\Desarrollo\travels-company\ImagenesPaquetes\ImagenesPaquetes.Application\obj\Debug\net9.0\ImagenesPaquetes.Application.dll
+C:\Desarrollo\travels-company\ImagenesPaquetes\ImagenesPaquetes.Application\obj\Debug\net9.0\refint\ImagenesPaquetes.Application.dll
+C:\Desarrollo\travels-company\ImagenesPaquetes\ImagenesPaquetes.Application\obj\Debug\net9.0\ImagenesPaquetes.Application.pdb
+C:\Desarrollo\travels-company\ImagenesPaquetes\ImagenesPaquetes.Application\obj\Debug\net9.0\ref\ImagenesPaquetes.Application.dll
