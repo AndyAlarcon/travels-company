@@ -1,0 +1,12 @@
+C:\Desarrollo\travels-company\ImagenesPaquetes\ImagenesPaquetes.Domain\bin\Debug\net9.0\ImagenesPaquetes.Domain.deps.json
+C:\Desarrollo\travels-company\ImagenesPaquetes\ImagenesPaquetes.Domain\bin\Debug\net9.0\ImagenesPaquetes.Domain.dll
+C:\Desarrollo\travels-company\ImagenesPaquetes\ImagenesPaquetes.Domain\bin\Debug\net9.0\ImagenesPaquetes.Domain.pdb
+C:\Desarrollo\travels-company\ImagenesPaquetes\ImagenesPaquetes.Domain\obj\Debug\net9.0\ImagenesPaquetes.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desarrollo\travels-company\ImagenesPaquetes\ImagenesPaquetes.Domain\obj\Debug\net9.0\ImagenesPaquetes.Domain.AssemblyInfoInputs.cache
+C:\Desarrollo\travels-company\ImagenesPaquetes\ImagenesPaquetes.Domain\obj\Debug\net9.0\ImagenesPaquetes.Domain.AssemblyInfo.cs
+C:\Desarrollo\travels-company\ImagenesPaquetes\ImagenesPaquetes.Domain\obj\Debug\net9.0\ImagenesPaquetes.Domain.csproj.CoreCompileInputs.cache
+C:\Desarrollo\travels-company\ImagenesPaquetes\ImagenesPaquetes.Domain\obj\Debug\net9.0\ImagenesPaquetes.Domain.sourcelink.json
+C:\Desarrollo\travels-company\ImagenesPaquetes\ImagenesPaquetes.Domain\obj\Debug\net9.0\ImagenesPaquetes.Domain.dll
+C:\Desarrollo\travels-company\ImagenesPaquetes\ImagenesPaquetes.Domain\obj\Debug\net9.0\refint\ImagenesPaquetes.Domain.dll
+C:\Desarrollo\travels-company\ImagenesPaquetes\ImagenesPaquetes.Domain\obj\Debug\net9.0\ImagenesPaquetes.Domain.pdb
+C:\Desarrollo\travels-company\ImagenesPaquetes\ImagenesPaquetes.Domain\obj\Debug\net9.0\ref\ImagenesPaquetes.Domain.dll
